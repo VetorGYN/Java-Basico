@@ -53,7 +53,7 @@ public class CalculadoraPrincipal {
         System.out.println("[1] - SOMA [2] - SUBTRAÇÃO [3]- MULTIPLICAÇÃO [4] - DIVISÃO [5] - SAIR");
         opcao = sc.nextInt();
         }
-        System.out.println("Obrigado!");
+        sc.close();
     }
 }
 
